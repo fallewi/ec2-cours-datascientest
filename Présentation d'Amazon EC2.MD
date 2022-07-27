@@ -309,7 +309,7 @@ La première chose à faire est de créer un VPC (virtual private cloud) sous le
 
 Ici, le bloc CIDR que j’ai pris est 10.0.0.0/16, vous pouvez le modifier selon vos besoins. Après avoir exécuté cette commande, la sortie suivante sera donnée au format JSON. Notez le vpcId . 
 
-![creatingvpc](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\creatingvpc.png)
+![creatingvpc](assets/images/creatingvpc.png)
 
 
 
