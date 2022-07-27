@@ -162,11 +162,19 @@ Entrez les détails suivants en conséquence :
 
 Vous aurez une sortie similaire à:
 
-> AWS Access Key ID [****************GAPB]:
-> AWS Secret Access Key [****************TMmi]:
-> Default region name [eu-west-1]:
-> Default output format [None]:
 
+
+    AWS Access Key ID [****************GAPB]:
+    AWS Secret Access Key [****************TMmi]:
+    Default region name [eu-west-1]:
+    Default output format [None]:
+
+
+
+AWS Access Key ID [Clé d’accès de l’utilisateur IAM]
+Clé d’accès secrète AWS [clé secrète de l’utilisateur IAM]
+Nom de région par défaut [Région Aws]
+Format de sortie par défaut [Le format JSON est correct]
 
 **Désinstallation de l’AWS CLI à partir d’ubuntu**
 
