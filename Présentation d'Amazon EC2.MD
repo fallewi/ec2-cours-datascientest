@@ -1,4 +1,6 @@
-FORMATION AWS EC2
+# _AWS EC2_
+
+<center><img  src="https://miro.medium.com/max/1400/1*U_GQqKm1vrjvjDrLGTAFqA.png" style="width:50%;"></center>
 
 # I - Présentation d'Amazon EC2
 
@@ -68,7 +70,6 @@ la  CLI de AWS  est un outil unifié incroyable d’AWS qui vous permet de crée
 Comme son nom l’indique, vous faites tout cela à partir de la ligne de commande manuellement ou en automatisant les appels d’API via des scripts.
 
 ***Remarque importante : Veuillez noter qu’AWS recommande d’utiliser CLI v2. Selon AWS, les nouvelles fonctionnalités ne sont pas rétroportées vers la v1, nous devons donc utiliser uniquement la v2. Par conséquent, nous nous concentrerons sur CLI v2 (dernière version majeure)***.
-Conditions préalables:
 
 
 
@@ -223,7 +224,7 @@ Sortie:
 ***La sortie indique que la version de l’AWS CLI installée est 1.18 ***
 
 
-# III. Création d'une instance avec la ligne de commande
+# III. Création d'une instance avec la ligne de commande AWS
 
 **Avant que vous ne lanciez un environnement de production, vous devez répondre aux questions suivantes.**
 
