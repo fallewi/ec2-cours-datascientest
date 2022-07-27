@@ -325,7 +325,7 @@ Créez maintenant un deuxième sous-réseau avec le bloc CIDR 10.0.0.0/24. (Les 
 
 > aws ec2 create-subnet --vpc-id <vpcId> --cidr-block 10.0.0.0/24
 
-![describertbsubnet](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\describertbsubnet.png)
+![describertbsubnet](assets/images/describertbsubnet.png)
 
 
 
@@ -354,7 +354,7 @@ Maintenant, utilisez le RouteTableId et utilisez-le à l’étape suivante:
 
 Ici, nous avons utilisé le 0.0.0.0/0 comme bloc CIDR de destination.
 
-![igwrtb](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\igwrtb.png)
+![igwrtb](assets/images/igwrtb.png)
 
 ***Affichage de la table de routage et des sous-réseaux***
 
@@ -367,7 +367,7 @@ Pour vérifier si la table de routage et les sous-réseaux sont créés et affec
 
 Ici, remplacez votre vpcId par <vpcId>.
 
-![describertbsubnet](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\describertbsubnet.png)
+![describertbsubnet](assets/images/describertbsubnet.png)
 
 
 
@@ -420,11 +420,11 @@ Enfin, une fois toute l’installation terminée avec succès, le moment est ven
 
 À cette étape, vous aurez besoin d’un ID d’image AMI (Amazon Machine Image). Pour cela, connectez-vous à votre console AWS et choisissez n’importe quelle AMI de votre type. Copiez l’ID de l’image et remplacez-le ici à la place de <ami-id>. Utilisez également le nom de votre paire de clés, l’ID du groupe de sécurité et l’ID du sous-réseau au bon endroit dans la commande ci-dessus. Notez également l’InstanceId.
 
-![runinstance](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\runinstance.png)
+![runinstance](assets/images/runinstance.png)
 
 
 
-![runinstance2](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\runinstance2.png)
+![runinstance2](assets/images/runinstance2.png)
 
 
 
@@ -436,15 +436,13 @@ Maintenant que l’état de l’instance est « en cours d’exécution », tape
 
 Entrez l’InstanceId que vous avez noté à l’étape ci-dessus.
 
-![describeinstance](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\describeinstance.png)
+![describeinstance](assets/images/describeinstance.png)
 
 ***4.9 Vérification de l’instance EC2***
 
 Pour vérifier si l’instance EC2 créée à l’aide de l’AWS CLI est créée selon les besoins, connectez-vous à votre console AWS, ouvrez le service EC2 et recherchez l’instance.
 
-
-
-![awsec2instancelaunchedusingcli](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\awsec2instancelaunchedusingcli.png)
+![awsec2instancelaunchedusingcli](assets/images/awsec2instancelaunchedusingcli.png)
 
 
 
@@ -452,7 +450,7 @@ Pour vérifier si l’instance EC2 créée à l’aide de l’AWS CLI est créé
 
 On peut déja vérifier que le port 22 qui est le port ssh qui nous servira pour la connexion est bien ouvert dans les règles d'entrée de notre sécurity group
 
-![allow-22-port-in-aws-security-group](https://www.devopshint.com/wp-content/uploads/2020/08/allow-22-port-in-aws-security-group-1024x292.png)
+![allow-22-port-in-aws-security-group](assets/images/allow-22-port-in-aws-security-group-1024x292.png)
 
 ###### Étape #1: Télécharger MobaXTerm
 
@@ -462,7 +460,7 @@ Téléchargez et installez MobaXTerm à partir du [site officiel de MobaXTerm](h
 
 Une fois installé, ouvrez le mobaxterm, allez dans le menu **Sessions**, cliquez sur **Nouvelle session** comme indiqué ci-dessous.
 
-![choosessh](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\choosessh.png)
+![choosessh](assets/images/choosessh.png)
 
 Entrez votre adresse IP d’instance AWS EC2, username dans **le champ Remote Host** et **Specify UserName**.
 
@@ -472,11 +470,11 @@ Cliquez sur **l’onglet Paramètres SSH avancés** et donnez le chemin de votre
 
 Cliquez sur **le bouton OK** pour connecter une instance AWS EC2 à l’aide de mobaxterm
 
-![moba](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\moba.png)
+![moba](assets/images/moba.png)
 
 Une fois connecté, vous verrez comme ci-dessous le terminal AWS Instance SSH
 
-![logged-in-to-aws-ec2-instance](C:\Users\fallewi\Documents\aws-ec2-course\labs\assets\images\logged-in-to-aws-ec2-instance.png)
+![logged-in-to-aws-ec2-instance](assets/images/logged-in-to-aws-ec2-instance.png)
 
 Maintenant que nous avons pu nous connecter à notre instance , nous pouvons la supprimer afin de libérer des ressources
 
